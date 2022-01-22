@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from Yukki import BOT_ID, app
+from DRAGON import BOT_ID, app
 
 
 def PermissionCheck(mystic):
@@ -8,7 +8,7 @@ def PermissionCheck(mystic):
         a = await app.get_chat_member(message.chat.id, BOT_ID)
         if a.status != "administrator":
             return await message.reply_text(
-                "I need to be admin with some permissions:\n"
+                "CHACHA ADMIN BNAO with some permissions:\n"
                 + "\n- **can_manage_voice_chats:** To manage voice chats"
                 + "\n- **can_delete_messages:** To delete Bot's Searched Waste"
                 + "\n- **can_invite_users**: For inviting assistant to chat."

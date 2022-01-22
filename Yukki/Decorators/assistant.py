@@ -60,7 +60,7 @@ def AssistantAdd(mystic):
                         )
                     await ASS_ACC.join_chat(invitelink)
                     await message.reply(
-                        f"{ASS_NAME} Joined Successfully",
+                        f"{ASS_NAME} LO MAI AA GYA✨/nREADY TO PLAY🎉",
                     )
                 except UserAlreadyParticipant:
                     pass
